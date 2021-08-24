@@ -11,8 +11,7 @@ int sum_of_digit(int num)
 	return 0;
 }
 int main(){
-	int num;
-	std::cin>>num;
+	int num = 20;
 	std::cout<<sum_of_digit(num);
 	return 0;
 }
